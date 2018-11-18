@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/FlooringStore/precache-manifest.3358b558230be41853be708d3f9a66ca.js"
+  "/FlooringStore/precache-manifest.3aa21bae25cf8dc311e210a81ed5329e.js"
 );
 
 workbox.clientsClaim();
