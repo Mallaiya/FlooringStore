@@ -96,5 +96,8 @@
     .Banner {
         background-position: -50px 0;
     }   
+    .Banner span.slide-active{
+        transform: translate(-45%,-55%);       
+    }
     
 }
