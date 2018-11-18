@@ -1,0 +1,59 @@
+.header-content{
+    height: 100px;
+}
+
+.header-content img{
+    width: 150px;
+}
+
+.header-image{
+    margin: auto 25px;
+}
+
+.header-content h5{
+    color: #393939;
+    margin-top: 35px;
+    margin-bottom: 0px;
+
+}
+
+.header-content p{
+    color: #cb8362;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px){
+    .header-content{
+        height: 80px;
+        line-height: 60px;
+    }    
+    .header-content img{
+        width: 150px;
+    }
+    .header-content h5{
+        display: none;
+    }
+    .header-content p{
+        margin: 10px;
+    }
+    .header-content p:before {
+        content : 'CallNow :';
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .header-content p{
+        margin: 0;
+        margin-right: 10px;
+    }
+    .header-content p:before {
+        display: none;
+    }
+    .header-content{
+        height: 60px;
+    }
+    .header-image{
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,111 @@
+.Nav{
+    margin: 0;
+    padding: 0;
+}
+.Nav .navbar{
+    background: #a41e1d;
+    padding: 0 !important;
+}
+.Nav .list-item{
+    margin: 0;
+    padding: 0;
+}
+.Nav .navbar-list{
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    border-right: 1px solid #820606;
+}
+
+.Nav  .navbar-list:hover{
+    background: #000;
+}
+.Nav  .nav-link{
+    color: #ffa7a6;
+}
+
+.Nav .nav-link:hover{
+    background: #393939;
+    color: #fff;
+}
+
+.Nav  .fa-sign-out-alt{
+    color: #fff;
+    padding: 12px;
+    background: #393939;
+}
+
+.Nav .active {
+    background: #393939;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    .nav-navbar{
+        display: none;
+    }
+    .side-nav{
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        width: 60%;
+        height: 100vh!important;
+        background: #a41e1d;
+        height: auto;
+        z-index: 5;
+        padding-top: 30px;
+    }
+    .list-item{
+        text-align: center;
+    }
+    .Nav .navbar-list{
+        display: block!important;
+        float: none;
+        border-right: none;   
+    }
+    .menu-bar{
+        position: absolute;
+        left: auto;
+        z-index: 3;
+        background: #393939;
+        padding: 6px 8px;
+    }
+    
+    .bar1, .bar2, .bar3{
+        height : 4px;
+        background: #fff;
+        width: 25px;
+        display:block;
+        border-radius : 50px;
+        margin: 4px 0;
+        transition: all 0.2s ease-out;
+    }
+    
+    .changebar1{
+        transform : rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .changebar2{
+        opacity: 0;
+    }
+    
+    .changebar3{
+        transform : rotate(45deg) translate(-5px,-6px);
+    }
+    .overlay {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 40px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,.6);
+        z-index: 1;
+    }
+    .show{
+        display: block!important;   
+    }
+}

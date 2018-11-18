@@ -1,0 +1,100 @@
+.Banner {
+    background: url('images/banner.jpg') no-repeat 0 -30px;
+    height: 400px;
+    background-size: cover;
+}
+
+.Banner .nav-bar{
+    background: #373735;
+}
+
+.Banner .navbar-list-item{
+    border-right: 1px solid #555;
+}
+
+.Banner .nav-link {
+    padding: 12px 20px;
+    color: #eee;
+}
+
+.Banner .nav-link:hover{
+    background: #000;
+}
+
+.Banner .banner-marquee{
+    margin-top: 315px;
+    background: rgba(0, 0,0, 0.8);
+}
+
+.Banner .banner-marquee p{
+    line-height: 37px;
+    color: #fff;
+    margin: 0 20px;
+}
+
+.Banner .slide-button{
+    margin: 10px 0;
+}
+.Banner .slide-circle{
+    display: inline-block;
+    background: #aaa;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.Banner span.slide-active{
+    display: block;
+    background: #333;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%,-55%);
+}
+
+
+@media screen and (max-width: 768px){
+    .Banner {
+        background-position: 0 0;
+        height: 300px;
+    }
+    .Banner .banner-nav{
+        margin-left: 0 auto;
+    }
+    .Banner .navbar-list-item{
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .Banner .nav-link {
+        padding: 10px 5px;
+    }
+    .Banner .navbar-list-item{
+        margin: auto;
+        text-align: center;
+        border: none;
+    }
+    .Banner .banner-marquee{
+        margin-top: 230px;
+    }
+    .Banner .banner-marquee p{
+        line-height: 30px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        margin: 0 20px;
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .Banner {
+        background-position: -50px 0;
+    }   
+    
+}
