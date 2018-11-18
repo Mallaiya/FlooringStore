@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Mallaiya/FlooringStore/precache-manifest.5a373b780918daf97326326bb97700c2.js"
+  "/FlooringStore/precache-manifest.6109cb4ffd1183819db330619e1a0dcf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Mallaiya/FlooringStore/index.html", {
+workbox.routing.registerNavigationRoute("/FlooringStore/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
