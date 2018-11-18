@@ -2,7 +2,7 @@
   "name": "vd04",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Mallaiya/FlooringStore.git",
+  "homepage": "https://github.com/Mallaiya/FlooringStore",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.5.0",
     "bootstrap": "^4.1.3",
